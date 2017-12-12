@@ -1,4 +1,12 @@
-Blah blah blah...
+Alias List
+
+alias.st status --short --branch
+alias.cma commit --all -m
+alias.qm !git checkout $1;git merge @{-1}
+alias.co checkout
+alias.lg log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset' --graph
+alias.so show --pretty='parent %Cred%p%Creset commit %Cred%h%Creset%C(yellow)%d%Creset%n%n%w(72,2,2)%s%n%n%w(72,0,0)%C(cyan)%an%Creset %Cgreen%ar%Creset'
+alias.lgb log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
 
 Comment By nino!!!
 He modificado este archivo.
