@@ -7,7 +7,6 @@ The corresponding [.NET Core Runtime repo](https://github.com/dotnet/coreclr) (c
 Runtime-specific library code ([mscorlib](https://github.com/dotnet/coreclr/tree/master/src/mscorlib)) lives in the CoreCLR repo. It needs to be built and versioned in tandem with the runtime. The rest of CoreFX is agnostic of runtime-implementation and can be run on any compatible .NET runtime (e.g. [CoreRT](https://github.com/dotnet/corert)).
 
 
-
 ## .NET Core
 
 Official Starting Page: http://dotnet.github.io
